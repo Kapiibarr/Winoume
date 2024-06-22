@@ -1,0 +1,25 @@
+.category{
+    display: flex;
+    flex-direction: column;
+    min-height: 1020px;
+}
+.category-indexSort {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.category-indexSort img{
+    width: 20px;
+    display: flex;
+}
+.category-products{
+    display: flex;
+    align-content: flex-start;
+}
+.category-pageNumber{
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+}

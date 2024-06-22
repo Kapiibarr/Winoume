@@ -1,0 +1,23 @@
+.cartbuy{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 10px;
+    background-color:  #a71145;
+    color: white;
+    margin-left: 100px;
+    width: 400px;
+    height: 300px;
+    font-size: 30px;
+}
+.cartbuy-button{
+    font-size: 35px;
+}
+button.cartbuy-button:hover{
+    border: 2px solid white;
+}
+.cartbuy-price{
+    display: flex;
+    justify-content: space-between;
+}

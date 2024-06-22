@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=Vollkorn&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: black;
+    background-color: white;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper{
+    margin: 60px auto;
+    margin-top: 30px;
+    max-width: 1320px;
+    min-height: calc(100vh - 100px);
+}

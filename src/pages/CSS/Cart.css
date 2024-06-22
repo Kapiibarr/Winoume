@@ -1,0 +1,4 @@
+.hasitems{
+    display: flex;
+    flex-direction: row;
+}

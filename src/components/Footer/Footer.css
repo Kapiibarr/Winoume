@@ -1,0 +1,44 @@
+
+.Footer{
+    background-color: #a71145;
+    height: 120px;
+    display: flex;
+    margin-left: -100px;
+    margin-right: -79px;
+    margin-bottom: -100px;
+    flex-direction: column;
+    margin-top: 5px;
+}
+.foot-logo{
+    margin-left: 180px;
+    margin-top: 10px;
+    display: flex;
+    height: 80px;
+    gap: 10px;
+    font-weight: 650;
+    font-size: 40px;
+}
+a:link    { color: black; text-decoration: none; }
+a:visited { color: black; text-decoration: none; }
+a:hover   { color: black; text-decoration: none; }
+a:active  { color: black; text-decoration: none; }
+ul.navigation{
+    float: right;
+    list-style: none;
+}
+
+ul.navigation li{
+    display: inline;
+    margin-left: 25px;
+    cursor: pointer;
+    transition: 200ms ease;
+    text-decoration: none;
+}
+
+ul.navigation li:hover{
+    opacity: 0.5;
+}
+.Footer p{
+    text-align:center;
+    
+}

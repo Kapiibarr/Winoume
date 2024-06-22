@@ -1,0 +1,34 @@
+.itemslist{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 10px;
+}
+.itemslist-header{
+  background-color: wheat;
+  padding: 5px;
+}
+.itemslist-items{
+  display: flex;
+  flex-wrap: wrap;
+}
+.hidden{
+  display: none;
+}
+
+.itemslist-header_sort select {
+  appearance: none;
+  background-color: #fff;
+  border: 1px solid #a71145;
+  border-radius: 3px;
+  color: #333;
+  font-size: 20px;
+  padding: 4px;
+}
+.itemslist-header_sort select:focus {
+  border-color: #a71145;
+  border: #a71145 solid 2px;
+} 
+.itemslist-header_sort select:hover {
+  border-color: #a71145;
+}

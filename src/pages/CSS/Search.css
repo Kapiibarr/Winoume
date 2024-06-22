@@ -1,0 +1,29 @@
+.search{
+  display: flex;
+  min-height: 880px;
+}
+.search-left{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 500px;
+  font-size: 25px;
+  padding: 5px;
+  margin-top: 5px;
+}
+.search-left p{
+  background-color: wheat;
+  height: 42px;
+  width: 300px;
+  text-align: center;
+}
+.search-right{
+  width: 100%;
+}
+.search-left input{
+  width: 40px;
+}
+.search-left_form{
+  display: flex;
+  flex-direction: column;
+}

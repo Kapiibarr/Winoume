@@ -1,0 +1,49 @@
+.item {
+    position: relative;
+    width: 300px;
+    background-color: white;
+    margin: 6px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+    flex-direction: column;
+}
+.item-price-buy{
+    display: flex;
+    justify-content: space-between;
+}
+.item::after {
+    content: '';
+    position: absolute;
+    bottom: 10;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-top: 60px solid #b0043f;
+    border-left: 60px solid transparent;
+}
+
+.item p {
+    margin: 6px;
+}
+p.name {
+    height: 60px;
+}
+.item:hover {
+    transform: scale(1.04);
+    transition: 0.6;
+    opacity: 0.9;
+}
+
+.item img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+}
+
+.item-price-buy_price {
+    font-size: larger;
+}
+
